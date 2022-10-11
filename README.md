@@ -1,7 +1,7 @@
 # passwordgen
 Module 3 Challenge
 
-- User Story 
+-- User Story 
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
@@ -22,5 +22,7 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+https://swnova.github.io/passwordgen/
 
 <img width="1344" alt="Screen Shot 2022-10-10 at 8 52 57 PM" src="https://user-images.githubusercontent.com/113868025/194994431-efaf5b57-4c66-4b1c-b4e5-d021143597ca.png">
