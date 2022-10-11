@@ -1,39 +1,21 @@
-
 var generateBtn = document.querySelector("#generate");
 
 var lowerCaseArr = [
   "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
-]
+];
 var hiCaseArr = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "k", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 ;
 
-var numbersArr = [ 1 , 2 , 3 , 4 , 5 , 6, 7, 8, 9, ];
+var numbersArr = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 0 ];
 
-var special = [" !, @, #, $, %, &, *, (, ),"]
-// Assignment code here
-//special characterss !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
-// Get references to the #generate element
+var special = ["! @ # $ % & *( ),-./:;<=>?@[]^_`{|}~"]
 
-//const speccharacters = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
-
-
-// Write password to the #password input
+// Write password 
 function writePassword() {
   var password = generatePassword();
-  //console.table(password)
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
-  //const alpha = Array.from(Array(26)).map((e, i) => i + 65);
-  //const alphabet = alpha.map((x) => String.fromCharCode(x));
- // console.log(alphabet);
-
 }
-
-//functions
-//button generates pw
-
-// prompt for pw length 
-// prompt for lower case , uppercase , numbers , special char
 
 
 
@@ -72,7 +54,6 @@ var pwlength = prompt("How many characters do you want your password to be ?"); 
   };
 
   if (speccharacters == true){
-   pwChars+= 
   impossiblecharacters=impossiblecharacters.concat(special)
   };
 
